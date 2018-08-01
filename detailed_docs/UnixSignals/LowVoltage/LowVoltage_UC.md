@@ -12,15 +12,15 @@ _Steps:_
 1.	The battery voltage hits below a certain predefined threshold set by the system
 2.	SDL gets LOW_VOLTAGE signal from HMI
 
-_Expected:_  
-3.	SDL stops all read write activities, audio/video streaming, ignores all requests from application and responses/messages from HMI
-4.	Voltage is restored
-5.	Next ignition cycle starts
-6.	SDL gets WAKE_UP signal from HMI
-7.	SDL starts its work successfully
-8.	Application is unregistered and device is disconnected due to LOW_VOLTAGE event 
-9.	Application with the same hashID re-connects and re-registers within predefined timer
-10.	SDL resumes app's data 
+_Expected:_   
+3.	SDL stops all read write activities, audio/video streaming, ignores all requests from application and responses/messages from HMI  
+4.	Voltage is restored  
+5.	Next ignition cycle starts  
+6.	SDL gets WAKE_UP signal from HMI  
+7.	SDL starts its work successfully  
+8.	Application is unregistered and device is disconnected due to LOW_VOLTAGE event  
+9.	Application with the same hashID re-connects and re-registers within predefined timer  
+10.	SDL resumes app's data  
 11.	SDL resumes app's HMI level to prior to the LOW_VOLTAGE event state
 
 _Exception 1:_  
@@ -40,7 +40,7 @@ _Exception 3:_
 1.3.e SDL starts its work successfully  
 1.3.f SDL discards processing RPC 
 
-_Exception 4:_ 
+_Exception 4:_  
 1.4.a SDL is is writing to policies database
 1.4.b SDL gets LOW_VOLTAGE signal from HMI  
 1.4.c SDL gets WAKE_UP signal from HMI  
