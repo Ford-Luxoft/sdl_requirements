@@ -39,7 +39,7 @@ Finish its work successfully and terminated all the processes
 
 3.  
 In case   
-SDL processes PTU (writing to policies database)  
+SDL processes writing to policies database  
 and HMI sends "LOW_VOLTAGE" and then "WAKE_UP" UNIX signal  
 
 SDL must  
