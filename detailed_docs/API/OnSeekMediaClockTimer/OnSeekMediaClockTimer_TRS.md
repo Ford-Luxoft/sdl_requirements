@@ -86,4 +86,4 @@ NOT transfer OnSeekMediaClockTimer notification from HMI to mobile app
 
 ## Diagram
 OnSeekMediaClockTimer
-![OnSeekMediaClockTimer](././OnSeekMediaClockTimer.png)
+![OnSeekMediaClockTimer](./accessories/OnSeekMediaClockTimer.png)
